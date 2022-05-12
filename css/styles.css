@@ -109,22 +109,101 @@ color: var(--title-text-color);
 .contacts {
 display: flex;
 margin-left: auto;
+height: ;
+width: ;
+
 }
 
+
+/* 
 .icon {
-    overflow: hidden;
-
-    
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url("");
 }
+
+.client1 {
+    width: 59px;
+    height: 32px;
+    background-position: 0 0;
+}
+
+.client2 {
+    width: 59px;
+    height: 32px;
+    background-position: -64px 0;
+}
+
+.client3 {
+    width: 59px;
+    height: 32px;
+    background-position: -128px 0;
+}
+
+.client4 {
+    width: 59px;
+    height: 32px;
+    background-position: -192px 0;
+}
+
+.client5 {
+    width: 59px;
+    height: 32px;
+    background-position: -256px 0;
+}
+
+.client6 {
+    width: 59px;
+    height: 32px;
+    background-position: -320px 0;
+}
+
+.mail {
+    width: 43px;
+    height: 32px;
+    background-position: -384px 0;
+}
+
+.facebook {
+    width: 32px;
+    height: 32px;
+    background-position: -448px 0;
+}
+
+.instagram {
+    width: 32px;
+    height: 32px;
+    background-position: -480px 0;
+}
+
+.linkedid {
+    width: 32px;
+    height: 32px;
+    background-position: 0 -32px;
+}
+
+.smartphone {
+    width: 20px;
+    height: 32px;
+    background-position: -32px -32px;
+}
+
+.twitter {
+    width: 32px;
+    height: 32px;
+    background-position: -64px -32px;
+}  */
+
+
 
 
 
 .contacts .item+.item {
-    
 margin-left: 50px;
 }
 
 .contacts .link {
+
 padding: 32px 0;
 cursor: pointer;
 
