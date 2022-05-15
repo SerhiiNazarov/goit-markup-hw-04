@@ -387,14 +387,17 @@ img {
 
 .icons-client {
   fill: #afb1b8;
+  border: none;
 }
 
 .client-link:hover,
-.client-link:focus,
+.client-link:focus {
+  border: 1px solid var(--accent-color);
+}
+
 .client-link:hover .icons-client,
 .client-link:focus .icons-client {
   fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
 }
 
 .clients-list + .clients-list {
